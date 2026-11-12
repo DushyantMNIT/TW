@@ -37,7 +37,6 @@ LaTeX automates layout configuration, section numbering, cross-referencing, and 
 The `\documentclass[options]{class}` directive sets global page layout rules and formatting defaults.
 
 | Class | Primary Purpose | Structural Features |
-| :--- | :--- | :--- |
 | `article` | Short papers, lab reports, homework | Uses `\section`, `\subsection`; no `\chapter` support |
 | `report` | Longer technical reports, dissertations | Supports `\chapter`, front matter, separate title page |
 | `book` | Textbooks, manuals, monographs | Supports `\frontmatter`, `\mainmatter`, `\backmatter`, chapters |
